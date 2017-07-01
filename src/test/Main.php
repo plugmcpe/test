@@ -3,7 +3,8 @@ namespace test;
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
- public function onEnable(){
+class Main extends PluginBase{
+public function onEnable(){
  $this->getServer()->getLogger()->info("plugin has been enabled");
    $this->getLogger()->info("plugin by : groupPluginer");
    }
