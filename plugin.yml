@@ -3,3 +3,6 @@ main: test\Main
 version: 1.0v
 api: 3.0.0
 author: GroupPluginer
+commands:
+  hello:
+      description: make player gamemode 1
